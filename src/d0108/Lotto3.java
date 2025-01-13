@@ -7,14 +7,13 @@ public class Lotto3 {
 		int[] nums = new int[3];
 		Random r = new Random();
 		
+		for(int i=0;i<3;i++) {
+			nums[i] = r.nextInt(100);
+		}
 		
-		nums[0] = r.nextInt(100);
-		nums[1] = r.nextInt(100);
-		nums[2] = r.nextInt(100);
-		
-		
-		System.out.println(nums[0]);
-		System.out.println(nums[1]);
-		System.out.println(nums[2]);
+		for(int i=0;i<3;i++) {
+			System.out.println(nums[i]);
+		}
+
 	}
 }
