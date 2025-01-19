@@ -9,7 +9,7 @@ public class Input2 {
 		Random r = new Random();
 		int targetNum = r.nextInt(100)+1;
 		
-		while(1==1) {
+		while(true) {
 			Scanner s = new Scanner(System.in);
 			System.out.println("원하는 숫자를 적으세요");
 			String numStr = s.nextLine();
@@ -26,7 +26,6 @@ public class Input2 {
 				break;
 			}
 		}
-		
 
 	}
 
